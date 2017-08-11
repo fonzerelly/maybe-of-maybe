@@ -1,0 +1,26 @@
+{
+  "name": "maybe-of-maybe",
+  "version": "1.0.0",
+  "description": "Example with folktale that leads to Maybe(Mybe(va\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Da\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dy\u001b[2~be(value))",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fonzerelly/maybe-of-maybe.git"
+  },
+  "keywords": [
+    "maybe",
+    "monad",
+    "functional",
+    "programming",
+    "folktale"
+  ],
+  "author": "christian hoerauf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fonzerelly/maybe-of-maybe/issues"
+  },
+  "homepage": "https://github.com/fonzerelly/maybe-of-maybe#readme"
+}
