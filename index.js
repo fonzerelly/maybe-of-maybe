@@ -79,6 +79,22 @@ describe('Access a two-dimensional Array', () => {
                     });
                 });
             });
+            describe('There might be another option', () => {
+                let maybeColumn;
+                beforeEach(() => {
+                    maybeRow.map((oneDimensional) => {
+                        maybeColumn=fromNullable(oneDimensional[0]);
+                    });
+                });
+
+                it('to gain the expected result', () => {
+                    expect(show(10, maybeColumn)).toEqual('Maybe.Just(42)');
+                });
+
+                xit('but', () => {
+                    fail('this seems to be more of a side effect, but an valid fp-opertion');
+                });
+            });
         });
     });
 });
