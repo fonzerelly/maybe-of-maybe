@@ -4,7 +4,8 @@
   "description": "Example with folktale that leads to Maybe(Mybe(va\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Da\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dy\u001b[2~be(value))",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "jasmine",
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/fonzerelly/maybe-of-maybe/issues"
   },
-  "homepage": "https://github.com/fonzerelly/maybe-of-maybe#readme"
+  "homepage": "https://github.com/fonzerelly/maybe-of-maybe#readme",
+  "dependencies": {
+    "core.inspect": "^1.0.3",
+    "data.maybe": "^1.2.2",
+    "jasmine": "^2.7.0"
+  }
 }
